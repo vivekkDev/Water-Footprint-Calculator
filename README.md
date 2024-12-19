@@ -14,7 +14,7 @@ The Water Footprint Calculator is a web application designed to help users estim
 -**Responsive Design**: Optimized for both desktop and mobile devices.
 
 **Demo**
-[Live Demo Link] – https://spriyanshi407.github.io/Waterfootprint-calculator/
+[Live Demo Link] – https://github.com/vivekkDev/Water-Footprint-Calculator.git
 
 **Usage**
 
