@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqua Footprint</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://watershedaction.org/images/logos/water-footprint-calculator-logo-600.png" alt="Aqua Footprint Logo" class="logo">
+        
+        <!-- Overlay navigation menu button -->
+        <span onclick="openNav()"><i id="hamb" class="fa fa-bars"></i></span>
+        
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#home">Home</a>
+                <a href="wfp.html">Water Footprint</a>
+                <a href="wfpcal.html">Water Footprint Calculator</a>
+                <a href="save.html">Water Saving Tips</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to Aqua Footprint</h1>
+        <p>"Measure, Conserve, Thrive: Let's Save Every Drop!"</p>
+    </section>
+
+    <section id="Water-footprint">
+        <h1>WHAT’S YOUR WATER FOOTPRINT?</h1>
+        <p>The overconsumption of fresh water is one of the greatest threats the planet faces. The non-responsible use
+            of water to produce consumer goods and services <b>jeopardizes the availability of water resources, which is
+            why the United Nations includes in the 2030 Agenda’s Sustainable Development Goals</b> the target of
+            “Ensuring access to water and sanitation for all.”<br><br>In order to manage more efficiently the control
+            over human freshwater expenditure, Dutch professor Arjen Hoekstra coined in 2002 the concept of <b>water
+            footprint</b> it is the total <b>fresh water used by a person, community, company or country to produce
+            the goods and services consumed.</b></p>
+        <div class="button-container">
+            <a href="wfpcal.html" class="left-button">Calculate Water Footprint</a>
+            <a href="wfp.html" class="right-button">What is Water Footprint</a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2024 Aqua Footprint
+    </footer>
+    <script src="script.js"></script>
+    <script src="swiper.js"></script>
+</body>
+</html>

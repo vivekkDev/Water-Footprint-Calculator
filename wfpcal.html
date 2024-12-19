@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Footprint Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image" href="img/logo.png">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        body {
+            background-image: url('https://wallpapercave.com/wp/NUxKPlh.jpg');
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Water Footprint Calculator</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Calculate Your Water Footprint</h2>
+            <form id="calculator-form">
+                <label for="shower">Shower (minutes):</label>
+                <input type="number" id="shower" name="shower" required>
+                <label for="dishwasher">Dishwasher (loads):</label>
+                <input type="number" id="dishwasher" name="dishwasher" required>
+                <label for="laundry">Laundry (loads):</label>
+                <input type="number" id="laundry" name="laundry" required>
+                <label for="toilet">Toilet Flushes:</label>
+                <input type="number" id="toilet" name="toilet" required>
+                <label for="cooking">Cooking (minutes):</label>
+                <input type="number" id="cooking" name="cooking" required>
+                <label for="gardening">Gardening (minutes):</label>
+                <input type="number" id="gardening" name="gardening" required>
+                <label for="drinking">Drinking (liters):</label>
+                <input type="number" id="drinking" name="drinking" required>
+                <label for="cleaning">Cleaning (minutes):</label>
+                <input type="number" id="cleaning" name="cleaning" required>
+                <label for="carwash">Car Wash (minutes):</label>
+                <input type="number" id="carwash" name="carwash" required>
+                <label for="other">Other (liters):</label>
+                <input type="number" id="other" name="other" required>
+                <button type="submit">Calculate</button>
+            </form>
+            <p id="result"></p>
+            <canvas id="waterFootprintChart" width="400" height="200"></canvas>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

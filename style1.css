@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0093E9;
+    background-color: #000000;
+    background-image: linear-gradient(148deg, #000000 0%, #344d5b 33%, #4f5a92 66%, #0a0000 100%);
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: rgba(61, 89, 174, 0.8);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+    border-bottom: 5px solid rgba(0, 121, 107, 1);
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(216, 234, 244, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+h2 {
+    color: #004d40; 
+    font-size: 2em;
+    margin-top: 20px;
+    border-bottom: 3px solid rgba(0, 121, 107, 0.8);
+    padding-bottom: 10px;
+    animation: fadeIn 1s ease-in-out;
+}
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #555;
+}
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    padding-left: 10px;
+}
+ul li {
+    margin-bottom: 10px;
+    color: #00796b;
+    transition: color 0.3s;
+}
+ul li:hover {
+    color: #004d40;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@media (max-width: 768px) {
+    header {
+        padding: 20px 15px;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    main {
+        padding: 15px;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    p {
+        font-size: 1em;
+    }
+}
+@media (max-width: 480px) {
+    header {
+        padding: 15px 10px;
+    }
+    header h1 {
+        font-size: 1.8em;
+    }
+    main {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
